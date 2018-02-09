@@ -1,0 +1,43 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+        <title>{{ title }}</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+
+        <link rel="stylesheet" href="vendor/foundation/css/foundation.css">
+        <link rel="stylesheet" href="vendor/foundation/css/app.css">
+    
+        <link rel="stylesheet" href="css/stationm.css">
+    
+    </head>
+    
+    <body id="body {{ body_class }} ">
+    
+    {% include 'partials/big-header.html' %}
+
+{% block content %}
+{% endblock %}
+
+    
+        <script src="vendor/foundation/js/vendor/jquery.js"></script>
+        <script src="vendor/foundation/js/vendor/what-input.js"></script>
+        <script src="vendor/foundation/js/vendor/foundation.min.js"></script>
+        <script src="vendor/foundation/js/app.js"></script>
+    
+        <script src="js/helper.js"></script>
+
+        <script>
+            $(document).foundation();
+        </script>
+   
+    </body>
+    
+</html>
+
+    
