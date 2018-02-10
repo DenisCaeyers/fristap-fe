@@ -1,0 +1,48 @@
+{% set title = 'Fristap - Contact' %} 
+{% set body_class = 'f__contact' %} 
+{% set body_bg_image = 'https://wallpaperscraft.com/image/board_black_line_texture_background_wood_55220_1920x1080.jpg'%} 
+
+{% extends '_general.nj' %} 
+
+{% block content %}
+
+<div class="row">
+    <div class="col-4">
+        <img src="https://placeimg.com/640/480/any" class="img-responsive">
+    </div>
+    <div class="col-8">
+        <section class="general">
+            <div class="social">
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="f__no_margin">
+                <i class="far fa-address-card"></i>
+                Dieter Fierens
+            </div>
+            <div class="f__no_margin">
+                <i class="far fa-envelope"></i>
+                <a href="mailto:hallo@fristap.com">hallo@fristap.com</a>
+            </div>
+            <div class="f__no_margin">
+                <i class="fas fa-phone"></i>+32 (0) 471 77 72 33</div>
+        </section>
+        <section class="booking">
+            <h2>Fristap op jou podium?</h2>
+            <div class="f__no_margin">
+                <i class="far fa-envelope"></i>
+                <a href="mailto:booking@fristap.com">booking@fristap.com</a>
+            </div>
+            <div class="">
+                <a href="presskit.html" target="_blank">Presskit</a>
+            </div>
+        </section>
+
+    </div>
+</div>
+
+{% endblock %}

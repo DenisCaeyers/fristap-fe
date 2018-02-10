@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Teko:700");
+* {
+  color: antiquewhite; }
+
 body {
   font-family: "Open Sans", sans-serif !important;
   font-size: 0.9rem;
@@ -19,6 +22,9 @@ h2 {
 .navbar a {
   font-size: 1.1rem;
   font-family: "Teko", sans-serif !important; }
+
+.f__text_smaller {
+  font-size: 0.8rem; }
 
 .f__text_normal {
   font-size: 1rem; }
@@ -86,3 +92,10 @@ a, a:active, a:hover, a:visited {
 
 a:active, a:hover {
   cursor: pointer; }
+
+* {
+  color: black; }
+
+.audio {
+  padding-top: 15px;
+  padding-bottom: 15px; }

@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Teko:700");
+* {
+  color: antiquewhite; }
+
 body {
   font-family: "Open Sans", sans-serif !important;
   font-size: 0.9rem;
@@ -20,6 +23,9 @@ h2 {
   font-size: 1.1rem;
   font-family: "Teko", sans-serif !important; }
 
+.f__text_smaller {
+  font-size: 0.8rem; }
+
 .f__text_normal {
   font-size: 1rem; }
 
@@ -28,6 +34,9 @@ h2 {
 
 .f__text_big {
   font-size: 1.3rem; }
+
+section {
+  padding-bottom: 60px; }
 
 .f__no_margin {
   margin-bottom: 0; }
@@ -73,7 +82,7 @@ header {
   width: 100%;
   /* Full width */
   background-color: rgba(0, 0, 0, 0.75);
-  padding: 15px; }
+  padding: 8px; }
   .navbar .left {
     float: left; }
   .navbar .right {
@@ -81,16 +90,19 @@ header {
   .navbar a, .navbar a:active, .navbar a:hover, .navbar a:visited {
     position: relative;
     padding: 15px;
-    color: antiquewhite;
     text-decoration: none; }
   .navbar a:active, .navbar a:hover {
     cursor: pointer;
     text-decoration: underline; }
   .navbar .social i {
-    color: antiquewhite;
     font-size: 1.4rem; }
 
 /* Main content */
 .main {
   margin-bottom: 30px;
   /* Add a bottom margin to avoid content overlay */ }
+
+.f__contact section.general div.social a {
+  text-decoration: none; }
+  .f__contact section.general div.social a i {
+    font-size: 1.4rem; }

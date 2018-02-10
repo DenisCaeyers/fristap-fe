@@ -4,9 +4,8 @@
     bottom: 0; /* Position the navbar at the bottom of the page */
     width: 100%; /* Full width */
 
-    background-color: rgba(0,0,0,0.75);
-    padding: 15px;
-    
+    background-color: rgba(0,0,0,0.75); 
+    padding: 8px;
     .left{
         float: left;
     }
@@ -18,7 +17,6 @@
         position: relative;
         padding: 15px;
 
-        color: antiquewhite;
         text-decoration: none;
     }
     #{$a-tags-hover} {
@@ -27,7 +25,6 @@
     }
     .social{
         i{
-            color: antiquewhite;
             font-size: 1.4rem;
         }
     }

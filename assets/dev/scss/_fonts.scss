@@ -1,4 +1,8 @@
 // FONTS IMPLEMENTED
+*{
+    color:antiquewhite;
+}
+
 body {
     font-family: $f-2 !important;
     font-size: 0.9rem;
@@ -27,6 +31,9 @@ h2{
     }
 }
 
+.f__text_smaller{
+    font-size: 0.8rem;
+}
 
 .f__text_normal{
     font-size: 1rem;
