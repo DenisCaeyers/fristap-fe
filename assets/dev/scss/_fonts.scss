@@ -1,6 +1,8 @@
 // FONTS IMPLEMENTED
 body {
     font-family: $f-2 !important;
+    font-size: 0.9rem;
+    line-height: 24px;
 }
 
 h1,
@@ -12,5 +14,21 @@ h3 {
 h1 {
     font-size: 2.6rem;
     margin: 0;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+.f__text_normal{
+    font-size: 1rem;
+}
+
+.f__text_bigger{
+    font-size: 1.1rem;
+}
+
+.f__text_big{
+    font-size: 1.3rem;
 }
 

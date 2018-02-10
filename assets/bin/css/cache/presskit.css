@@ -1,3 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Teko:700");
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 0.9rem;
+  line-height: 24px; }
+
+h1,
+h2,
+h3 {
+  font-family: "Teko", sans-serif !important; }
+
+h1 {
+  font-size: 2.6rem;
+  margin: 0; }
+
+h2 {
+  font-size: 1.8rem; }
+
+.f__text_normal {
+  font-size: 1rem; }
+
+.f__text_bigger {
+  font-size: 1.1rem; }
+
+.f__text_big {
+  font-size: 1.3rem; }
+
+.f__no_margin {
+  margin-bottom: 0; }
+  .f__no_margin i {
+    margin-right: 15px; }
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -14,7 +46,18 @@
   width: 100%;
   height: 100%; }
 
+.img-responsive {
+  width: 100%;
+  display: block;
+  height: auto;
+  max-width: 100%; }
+
+.row-nopadding {
+  margin-left: -12px;
+  margin-right: -12px; }
+
 h2 {
+  margin-top: 15px;
   position: relative;
   margin-bottom: 30px; }
 
@@ -29,3 +72,13 @@ h2:after {
 
 div {
   margin-bottom: 20px; }
+
+a {
+  color: red; }
+
+a, a:active, a:hover, a:visited {
+  position: relative;
+  padding-bottom: 8px; }
+
+a:active, a:hover {
+  cursor: pointer; }

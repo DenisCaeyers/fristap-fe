@@ -1,6 +1,9 @@
+@import "variables";
+@import "fonts";
 @import "generals";
 
 h2{
+    margin-top: 15px;
     position: relative;
     margin-bottom: 30px;
 }
@@ -16,4 +19,15 @@ h2:after {
 
 div{
     margin-bottom: 20px;
+}
+
+a {
+    color: red;
+}
+#{$a-tags} {
+    position: relative;
+    padding-bottom: 8px;
+}
+#{$a-tags-hover} {
+    cursor: pointer;
 }
