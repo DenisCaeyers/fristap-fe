@@ -15,19 +15,22 @@
 <body id="body">
 
 
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="large-4 cell m_bigbox">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 m_bigbox">
                 <h1>Pages</h1>
                 <ul>
                     <li>
                         <a href="/assets/bin/home.html">home.html</a>
                     </li>
+                    <li>
+                        <a href="/assets/bin/presskit.html">presskit.html</a>
+                    </li>
                 </ul>
             </div>
-            <div class="large-4 cell m_bigbox">
+            <div class="col-4 m_bigbox">
             </div>
-            <div class="large-4 cell m_bigbox">
+            <div class="col-4 m_bigbox">
                 <h1>Vendor</h1>
                 <ul>
                     <li><a href="/assets/bin/vendor/foundation/index.html">Foundation Help</a></li>
@@ -35,28 +38,6 @@
             </div>
         </div>
     </div>
-
-    <script src="assets/bin/vendor/foundation/js/vendor/jquery.js"></script>
-    <script src="assets/bin/vendor/foundation/js/vendor/what-input.js"></script>
-    <script src="assets/bin/vendor/foundation/js/vendor/foundation.js"></script>
-    <script src="assets/binvendor/foundation/js/app.js"></script>
-
-    <script src="assets/bin/helper.js"></script>
-    <script>
-        $(window).resize(function () {
-            resizeContent($);
-            positionNav($);
-        });
-
-        $(window).load(function () {
-            resizeContent($);
-            positionNav($);
-        });
-
-        $(document).scroll(function () {
-            positionNav($);
-        });</script>
-
 </body>
 
 </html>

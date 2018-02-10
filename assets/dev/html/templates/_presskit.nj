@@ -1,0 +1,26 @@
+<html>
+    
+    <head>
+        {% include 'partials/head-meta.html' %}
+    
+        <title>{{ title }}</title>
+
+        {% include 'partials/head-css-general.html' %}
+
+        <link rel="stylesheet" href="css/presskit.css">
+    
+    </head>
+    
+    <body id="body {{ body_class }}">
+    
+
+    {% block content %}
+    {% endblock %}
+
+    
+   
+    </body>
+    
+</html>
+
+    

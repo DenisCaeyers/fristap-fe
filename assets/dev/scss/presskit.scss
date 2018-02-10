@@ -1,0 +1,19 @@
+@import "generals";
+
+h2{
+    position: relative;
+    margin-bottom: 30px;
+}
+h2:after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 65px;
+    height: 6px;
+    background: black;
+}
+
+div{
+    margin-bottom: 20px;
+}
