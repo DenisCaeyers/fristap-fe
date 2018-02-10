@@ -5,6 +5,40 @@
     }
 }
 
+// CTA
+.button {
+    background-color: red;
+    font-weight: bold;
+    border: 2px red solid;
+    color: antiquewhite;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    &:hover{
+        background-color: darken($color: red, $amount: 20%);
+        border: darken($color: red, $amount: 20%) 2px solid;
+    }
+}
+
+.button-inverted {
+    border: 2px red solid;
+    font-weight: bold;
+    color: antiquewhite;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    &:hover{
+        background-color: darken($color: red, $amount: 20%);
+        border: darken($color: red, $amount: 20%) 2px solid;
+    }
+}
+
 // responsive youtube
 .video-container {
     position: relative;
@@ -24,6 +58,7 @@
     height: 100%;
 }
 
+// responsive images
 .img-responsive{
     width: 100%;
     display: block;
@@ -31,6 +66,7 @@
     max-width: 100%;
 }
 
+// no paddings
 .row-nopadding{
     margin-left: -12px;
     margin-right: -12px;
