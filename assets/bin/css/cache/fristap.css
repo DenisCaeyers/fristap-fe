@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Teko:700");
 * {
   color: antiquewhite; }
@@ -42,6 +43,34 @@ section {
   margin-bottom: 0; }
   .f__no_margin i {
     margin-right: 15px; }
+
+.f__row_no_padding {
+  padding: 0; }
+
+.f__row_no_margin {
+  margin: 0 !important; }
+
+div.spacer {
+  padding: 15px; }
+
+h2 {
+  margin-top: 15px;
+  position: relative;
+  margin-bottom: 30px; }
+
+h2:after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 65px;
+  height: 6px;
+  background: antiquewhite; }
+
+ul.usp li:before {
+  content: '✓';
+  margin-right: 15px;
+  color: red; }
 
 .button {
   background-color: red;

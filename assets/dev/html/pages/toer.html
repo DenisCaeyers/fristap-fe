@@ -1,0 +1,19 @@
+{% set title = 'Fristap - Toer' %} 
+{% set body_class = 'f__toer' %} 
+{% set body_bg_image = 'https://wallpaperscraft.com/image/board_black_line_texture_background_wood_55220_1920x1080.jpg'%}
+
+{% extends '_general.nj' %} 
+
+{% block content %}
+
+<div class="row page-header">
+    <div class="col-12">
+        <h2>Mijne tournee</h2>
+    </div>
+</div>
+
+{% include 'partials/event.html' %}
+{% include 'partials/event.html' %}
+{% include 'partials/event.html' %}
+
+{% endblock %}
