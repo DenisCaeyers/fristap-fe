@@ -11,7 +11,7 @@
     
     </head>
     
-    <body id="body {{ body_class }}">
+    <body id="body {{ body_class }}" style="background-image:url('{{ body_bg_image }}')">
     
 
     {% block content %}

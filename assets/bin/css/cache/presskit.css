@@ -124,6 +124,9 @@ ul.usp li:before {
   margin-left: -12px;
   margin-right: -12px; }
 
+body {
+  background-size: cover; }
+
 h2 {
   margin-top: 15px;
   position: relative;
