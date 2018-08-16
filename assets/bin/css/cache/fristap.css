@@ -170,3 +170,9 @@ header {
   text-decoration: none; }
   .f__contact section.general div.social a i {
     font-size: 1.4rem; }
+
+.f__teksten div.songblock .anker {
+  height: 60px; }
+
+.f__teksten div.songblock h2 {
+  margin-top: 30px; }
