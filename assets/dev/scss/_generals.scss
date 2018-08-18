@@ -16,6 +16,10 @@ div.spacer{
     padding: 15px;
 }
 
+body{
+    background-size: cover;
+}
+
 // header
 h2{
     margin-top: 15px;
@@ -43,10 +47,10 @@ ul.usp{
 
 // CTA
 .button {
-    background-color: red;
+    background-color: antiquewhite;
     font-weight: bold;
-    border: 2px red solid;
-    color: antiquewhite;
+    border: 2px antiquewhite solid;
+    color: black;
     padding: 7px 32px;
     text-align: center;
     text-decoration: none;
@@ -54,13 +58,14 @@ ul.usp{
     margin: 4px 2px;
     cursor: pointer;
     &:hover{
-        background-color: darken($color: red, $amount: 20%);
-        border: darken($color: red, $amount: 20%) 2px solid;
+        background-color: darken($color: antiquewhite, $amount: 20%);
+        border: darken($color: antiquewhite, $amount: 20%) 2px solid;
+        color: black;
     }
 }
 
 .button-inverted {
-    border: 2px red solid;
+    border: 2px antiquewhite solid;
     font-weight: bold;
     color: antiquewhite;
     padding: 7px 32px;
@@ -70,8 +75,9 @@ ul.usp{
     margin: 4px 2px;
     cursor: pointer;
     &:hover{
-        background-color: darken($color: red, $amount: 20%);
-        border: darken($color: red, $amount: 20%) 2px solid;
+        background-color: darken($color: antiquewhite, $amount: 20%);
+        border: darken($color: antiquewhite, $amount: 20%) 2px solid;
+        color: black;
     }
 }
 
@@ -92,6 +98,10 @@ ul.usp{
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+div.spacer-big{
+    height: 60px;
 }
 
 // responsive images
